@@ -1,0 +1,38 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    .card {
+        position: relative;
+        background-color: #fff;
+        width: 400px;
+        max-width: 85vw;
+        height: 50vh;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        border-radius: 20px;
+        background-size: cover;
+        background-position: center;
+        object-fit: contain;
+        .card__heading {
+            position: absolute;
+            bottom: 0;
+            color: #fff;
+            background-color: #fff;
+            width: 100%;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            overflow: hidden;
+            padding: 1em;
+            h4 {
+                color: #a0a0a0;
+                margin-bottom: 5px;
+            }
+            h5 {
+                color: #c3c3c3;
+            }
+        }
+    }
+    .swipe {
+        position: absolute;
+    }
+}
