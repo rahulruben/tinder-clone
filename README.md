@@ -6,8 +6,8 @@ Tinder clone a tinder representation in MERN Stack<br />
 
 ## Technology Stack
 **UI Layer**: [React](https://reactjs.org/)<br />
-**Backend**: [Node](https://nodejs.org/en/)
-**Backend Web Framework**: [Express](https://expressjs.com/)
+**Backend**: [Node](https://nodejs.org/en/)<br />
+**Backend Web Framework**: [Express](https://expressjs.com/)<br />
 **Database**: [MongoDB](https://www.mongodb.com/)
 
 **Project setup:**
